@@ -4,12 +4,12 @@ import java.util.Iterator;
 public class Snippet {
  
   public static void main(String args[]){
-    ArrayList names = new ArrayList();
+    ArrayList<String> names = new ArrayList<String>();
     names.add("Chaitanya");
     names.add("Steve");
     names.add("Jack");
  
-    Iterator it = names.iterator();
+    Iterator<String> it = names.iterator();
  
     while(it.hasNext()) {
       String obj = (String)it.next();
